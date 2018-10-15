@@ -1,0 +1,74 @@
+@font-face {
+  font-family:'tit';
+  src: url('fonts/titlefont.ttf');
+}
+@font-face {
+  font-family:'textfont';
+  src: url('fonts/textfont.ttf');
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  height: 92%;
+  width: auto;
+}
+
+h1 {
+  margin: 5%;
+
+
+}
+
+
+.myTitle {
+  font-size: 13px;
+  font-family: tit;
+  display: inline-block;
+  height: 8%;
+  vertical-align: middle;
+}
+
+.info {
+  vertical-align: top;
+  display: inline-block;
+  padding: 1.1%;
+  width: 25%;
+  white-space: normal;
+  text-align: left;
+
+  font-family: tit;
+}
+
+.picture {
+  display: inline;
+  vertical-align: text-top;
+
+}
+
+.projectLink{
+  text-decoration: underline;
+  font-weight: 400;
+  color: #444444;
+  font-size: 20px;
+}
+
+.projectInfo {
+  text-align: justify;
+  line-height: 20px;
+  font-family: textfont;
+  font-size: 12px;
+  padding-top: 2px;
+
+}
+
+.scroller {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  align: center;
+
+  }
