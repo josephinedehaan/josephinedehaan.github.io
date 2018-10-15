@@ -1,111 +1,134 @@
 <html>
 <head>
-    <title>
-	Josephine de Haan
-    </title>
+  <title>
+    Josephine de Haan
+  </title>
 
-<style>
-@font-face {
- font-family:'tit';
-src: url('fonts/font.ttf');
-}
+  <style>
+  @font-face {
+    font-family:'tit';
+    src: url('fonts/font.ttf');
+  }
 
-body {
+  body {
     padding: 0px;
     margin: 0px;
-}
+  }
 
-img {
+  img {
     height: 94%;
     width: auto;
-}
+  }
 
-h1 {
-	margin: 5%;
-
-
-}
+  h1 {
+    margin: 5%;
 
 
-.myTitle {
-  font-size: 13px;
-  	font-family: tit;
+  }
+
+
+  .myTitle {
+    font-size: 13px;
+    font-family: tit;
     display: inline-block;
     height: 6%;
     vertical-align: middle;
-}
+  }
 
-.info {
+  .info {
     vertical-align: top;
     display: inline-block;
     padding: 1.1%;
-  width: 25%;
-white-space: normal;
-text-align: justify;
+    width: 25%;
+    white-space: normal;
+    text-align: left;
 
-    	font-family: tit;
-}
+    font-family: tit;
+  }
 
-.picture {
+  .picture {
     display: inline;
     vertical-align: text-top;
 
-}
+  }
+
+  .projectLink{
+    text-decoration: underline;
+    font-weight: 400;
+    color: #444444;
+    font-size: 20px;
+  }
+
+  .projectInfo {
+    text-align: justify;
+  }
 
 
 
 </style>
 </head>
 <body>
-    <div class="myTitle">
-     <h1>josephinedehaan@pm.me</h1>
-    </div>
-    <div id="scroller" align="center" style="overflow-x: scroll; overflow-y: hidden; white-space:
-	nowrap;">
 
-
-<div class="info">
-
-  <p style= "color:#444444">
-    <p align="left">
-<u>
-foodporn</u>
-</p>
-
-<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis mauris purus, vitae facilisis mauris placerat sed. Nullam rutrum elit vitae arcu aliquet, sed vulputate lacus dapibus. Ut vitae eros blandit nisl efficitur semper. Maecenas sed tempor mauris. Morbi eu turpis vel odio congue rhoncus sit amet id purus. Integer luctus venenatis felis vel finibus. Mauris eu mattis tortor. Duis sodales leo massa, eget finibus libero molestie ac. Vivamus pellentesque metus quam, a eleifend elit lobortis eu. Maecenas posuere ex sit amet efficitur ornare. Sed nibh velit, accumsan vitae iaculis vitae, maximus eget lorem.
-
-Morbi vitae felis scelerisque tortor pretium tincidunt. Vivamus sodales, nibh ut posuere molestie, lorem odio vehicula ligula, id tempus mi sapien a nulla. Integer metus ante, pharetra sed varius at, pulvinar ut lorem. Donec erat erat, porttitor sit amet ipsum quis, lacinia tempus ligula. Fusce ornare purus in dapibus condimentum. Vestibulum condimentum augue justo, sit amet egestas ligula tempus vitae. Nullam accumsan odio nec ante aliquam consequat. Vestibulum lorem ipsum, luctus id sem sed, aliquet posuere nibh. Quisque ut eros eget justo molestie facilisis. Praesent elementum ullamcorper risus eget pharetra. Pellentesque tincidunt bibendum ex at volutpat. Cras efficitur consectetur diam, vitae placerat sem condimentum eu. Cras.
-</br>
-</p style>
-
-</div>
-
-
-
-
-    <div class="picture">
-	<img src="images/01.png">
-    </div>
-
-
-    <div class="picture">
-	<img src="images/05.png">
-    </div>
-
-
-    <div class="picture">
-	<img src="images/04.png">
-    </div>
-
-    <div class="picture">
-	<img src="images/07.png">
-    </div>
-
-    <div class="picture">
-      <img src="images/06.png">
-    </div>
+  <!-- Begin the header div -->
+  <div class="myTitle">
+    <h1>josephinedehaan@pm.me</h1>
   </div>
+  <!-- End the header div -->
+
+  <!-- Begin the scrollbar div -->
+  <div id="scroller" align="center" style="overflow-x: scroll; overflow-y: hidden; white-space:
+  nowrap;">
+
+
+  <!-- Begin a segment in the scroller which displays the sidebar -->
+  <div class="info">
+    <!-- Top link, for the current open project -->
+    <a href="#" class="projectLink">foodporn</a>
+
+    <!-- begin div containg open project info -->
+    <div class="projectInfo">
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis mauris purus, vitae facilisis mauris placerat sed. Nullam rutrum elit vitae arcu aliquet, sed vulputate lacus dapibus. Ut vitae eros blandit nisl efficitur semper. Maecenas sed tempor mauris. Morbi eu turpis vel odio congue rhoncus sit amet id purus. Integer luctus venenatis felis vel finibus. Mauris eu mattis tortor. Duis sodales leo massa, eget finibus libero molestie ac. Vivamus pellentesque metus quam, a eleifend elit lobortis eu. Maecenas posuere ex sit amet efficitur ornare. Sed nibh velit, accumsan vitae iaculis vitae, maximus eget lorem.
+
+      Morbi vitae felis scelerisque tortor pretium tincidunt. Vivamus sodales, nibh ut posuere molestie, lorem odio vehicula ligula, id tempus mi sapien a nulla. Integer metus ante, pharetra sed varius at, pulvinar ut lorem. Donec erat erat, porttitor sit amet ipsum quis, lacinia tempus ligula. Fusce ornare purus in dapibus condimentum. Vestibulum condimentum augue justo, sit amet egestas ligula tempus vitae. Nullam accumsan odio nec ante aliquam consequat. Vestibulum lorem ipsum, luctus id sem sed, aliquet posuere nibh. Quisque ut eros eget justo molestie facilisis. Praesent elementum ullamcorper risus eget pharetra. Pellentesque tincidunt bibendum ex at volutpat. Cras efficitur consectetur diam, vitae placerat sem condimentum eu. Cras.
+
+    </div>
+
+    <!--end div containg open project info -->
+    <br/>
+<a href="#" class="projectLink">sterile city</a>
+
+
+  </div>
+  <!-- End div containg info segement -->
+
+
+
+
+
+
+  <div class="picture">
+    <img src="images/01.png">
+  </div>
+
+
+  <div class="picture">
+    <img src="images/05.png">
+  </div>
+
+
+  <div class="picture">
+    <img src="images/04.png">
+  </div>
+
+  <div class="picture">
+    <img src="images/07.png">
+  </div>
+
+  <div class="picture">
+    <img src="images/06.png">
+  </div>
+</div>
 
 </body>
 </html>
